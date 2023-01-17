@@ -105,5 +105,5 @@ Here are Two Reports Links:
 2. [Newman Run Report](https://drive.google.com/file/d/1WvkC5MU9KauPdOE8TSzVERN47LsfOqnT/view?usp=share_link)
 
 Thanks For Reading.
-From,
+[^1]: From,
 **Sazid Ahmed Nassir**
