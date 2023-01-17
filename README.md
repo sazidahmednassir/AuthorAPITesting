@@ -29,3 +29,9 @@ Updating Update Author Detail using put method with id. Here is image below:
 Fetching Specific Author Detail using get method with id. Here is image below:
 
 ![Screenshot (211)](https://user-images.githubusercontent.com/90126212/212919575-cedf341d-1950-4e2c-ac71-f30f9645de36.png)
+
+## Delete Author Detail
+Deleting Author Detail using delete method with id. Here is image below:
+
+
+![Screenshot (212)](https://user-images.githubusercontent.com/90126212/212925076-1506a1a6-cc22-41f8-aa90-e6c3ad20f8ee.png)
