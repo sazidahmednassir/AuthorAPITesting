@@ -1,0 +1,294 @@
+{
+	"info": {
+		"_postman_id": "74facdf6-7c90-47d6-afcd-e1948127e28f",
+		"name": "AuthorProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24557160"
+	},
+	"item": [
+		{
+			"name": "Get Author Details",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Author Details Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Base_Url}}/author",
+					"host": [
+						"{{Base_Url}}"
+					],
+					"path": [
+						"author"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Author Detail",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData= pm.response.json()\r",
+							"pm.environment.set(\"id\", jsonData.id)\r",
+							"\r",
+							"pm.test(\"Add Author Detail Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n      \"firstName\": \"{{FirstName}}\",\r\n      \"lastName\": \"{{LastName}}\",\r\n      \"email\": \"{{Email}}\",\r\n      \"dateOfBirth\": \"{{BirthDate}}\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Base_Url}}/author",
+					"host": [
+						"{{Base_Url}}"
+					],
+					"path": [
+						"author"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Specific Author Detail",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData=pm.response.json()\r",
+							"\r",
+							"pm.test(\"Get Specific Author Detail Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var code=responseCode.code;\r",
+							"console.log(code)\r",
+							"\r",
+							"switch(code){\r",
+							"case 200:\r",
+							"\r",
+							"pm.test('checking first name ', function(){\r",
+							"    pm.expect(jsonData.firstName).to.eql(pm.iterationData.get(\"FirstName\"));\r",
+							"})\r",
+							"\r",
+							"\r",
+							"pm.test('checking last name ', function(){\r",
+							"    pm.expect(jsonData.lastName).to.eql(pm.iterationData.get(\"LastName\"));\r",
+							"})\r",
+							"\r",
+							"pm.test('checking email', function(){\r",
+							"    pm.expect(jsonData.email).to.eql(pm.iterationData.get(\"Email\"));\r",
+							"})\r",
+							"pm.test('checking date of birth', function(){\r",
+							"    pm.expect(jsonData.dateOfBirth).to.eql(pm.iterationData.get(\"BirthDate\"));\r",
+							"})\r",
+							"\r",
+							"break;\r",
+							"\r",
+							"case 404:\r",
+							"pm.test(\"Not Found\");\r",
+							"break;\r",
+							"default:\r",
+							"pm.test(\"Something went wrong\")\r",
+							"\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Base_Url}}/author/{{id}}",
+					"host": [
+						"{{Base_Url}}"
+					],
+					"path": [
+						"author",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Author Detail",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Update Author Detail Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var randomEmail=pm.variables.replaceIn(\"{{$randomEmail}}\")\r",
+							"\r",
+							"console.log(randomEmail)\r",
+							"\r",
+							"pm.environment.set(\"email\", randomEmail)\r",
+							"\r",
+							"var firstname=pm.variables.replaceIn(\"{{$randomFirstName}}\")\r",
+							"pm.environment.set(\"firstname\", firstname)\r",
+							"\r",
+							"var lastname=pm.variables.replaceIn(\"{{$randomLastName}}\")\r",
+							"pm.environment.set(\"lastname\", lastname)\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n      \"firstName\": \"{{firstname}}\",\r\n      \"lastName\": \"{{lastname}}\",\r\n      \"email\": \"{{email}}\",\r\n      \"dateOfBirth\": \"1997-07-23\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Base_Url}}/author/{{id}}",
+					"host": [
+						"{{Base_Url}}"
+					],
+					"path": [
+						"author",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Update Specific Author Detail",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData=pm.response.json()\r",
+							"var code=responseCode.code;\r",
+							"\r",
+							"\r",
+							"\r",
+							"switch(code){\r",
+							"case 200:\r",
+							"pm.test('first name vaild', function(){\r",
+							"    pm.expect(jsonData.firstName).to.eql(pm.environment.get(\"firstname\"));\r",
+							"})\r",
+							"\r",
+							"pm.test('last name vaild', function(){\r",
+							"    pm.expect(jsonData.lastName).to.eql(pm.environment.get(\"lastname\"));\r",
+							"})\r",
+							"pm.test('email vaild', function(){\r",
+							"    pm.expect(jsonData.email).to.eql(pm.environment.get(\"email\"));\r",
+							"})\r",
+							"\r",
+							"\r",
+							"break;\r",
+							"\r",
+							"case 404:\r",
+							"pm.test(\"Not Found\");\r",
+							"break;\r",
+							"default:\r",
+							"pm.test(\"Something went wrong\")\r",
+							"\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Base_Url}}/author/{{id}}",
+					"host": [
+						"{{Base_Url}}"
+					],
+					"path": [
+						"author",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Author Detail",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Delete Author Detail Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Base_Url}}/author/{{id}}",
+					"host": [
+						"{{Base_Url}}"
+					],
+					"path": [
+						"author",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
