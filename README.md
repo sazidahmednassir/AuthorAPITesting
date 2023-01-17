@@ -61,5 +61,10 @@ Random Values:
 
 ![Screenshot (248)](https://user-images.githubusercontent.com/90126212/212934286-eb9d888e-688f-42b6-9d52-7ddba65e1d4b.png)
 
+![Screenshot (250)](https://user-images.githubusercontent.com/90126212/212946064-e1f29616-a9ce-44ab-ba0c-564a6d36467f.png)
 
 ![Screenshot (249)](https://user-images.githubusercontent.com/90126212/212934810-ecf55bd2-b5f4-4ba1-b858-0aea01f308f7.png)
+
+![Screenshot (251)](https://user-images.githubusercontent.com/90126212/212946147-8e6a0758-afb4-415e-8334-6d2a4fd09bac.png)
+
+![Screenshot (252)](https://user-images.githubusercontent.com/90126212/212946210-bccda4de-bec9-47c3-bd6b-097947fe2b8c.png)
