@@ -90,6 +90,15 @@ Random Values:
 
 ![Screenshot (259)](https://user-images.githubusercontent.com/90126212/212954619-4d17b0e2-95b8-422e-b62e-9fb96d4c9759.png)
 
+**Report are Generated**
+
+![Screenshot (261)](https://user-images.githubusercontent.com/90126212/212955548-756a8245-62ca-4a9d-b9dd-34812dd94b60.png)
+
+![Screenshot (260)](https://user-images.githubusercontent.com/90126212/212955624-d861fdac-3f8c-45dd-9a52-f3cc5ac0c51b.png)
+
+![Newman Summary Report](https://user-images.githubusercontent.com/90126212/212956295-4afcd115-3875-4c7e-b63c-df1228711177.png)
+
+![Postman Report](https://user-images.githubusercontent.com/90126212/212956382-afa3ad9c-5cd9-4d32-8be0-255b7ca58345.png)
 
 
 
