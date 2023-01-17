@@ -69,4 +69,9 @@ Random Values:
 
 ![Screenshot (252)](https://user-images.githubusercontent.com/90126212/212946210-bccda4de-bec9-47c3-bd6b-097947fe2b8c.png)
 
-###Now run the Collection with csv:
+**Now run the Collection with csv:**
+
+
+![Screenshot (253)](https://user-images.githubusercontent.com/90126212/212949156-2394c81c-209b-4e0b-b765-f6c32e9a0a45.png)
+
+![Screenshot (254)](https://user-images.githubusercontent.com/90126212/212949303-27e0d4df-ce60-4082-8840-3aca2890f3d8.png)
