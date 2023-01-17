@@ -69,9 +69,27 @@ Random Values:
 
 ![Screenshot (252)](https://user-images.githubusercontent.com/90126212/212946210-bccda4de-bec9-47c3-bd6b-097947fe2b8c.png)
 
-**Now run the Collection with csv:**
+**Now run the Collection with CSV DATA And Random Values:**
 
 
 ![Screenshot (253)](https://user-images.githubusercontent.com/90126212/212949156-2394c81c-209b-4e0b-b765-f6c32e9a0a45.png)
 
 ![Screenshot (254)](https://user-images.githubusercontent.com/90126212/212949303-27e0d4df-ce60-4082-8840-3aca2890f3d8.png)
+
+**All Test Case are Passed**
+
+![Screenshot (255)](https://user-images.githubusercontent.com/90126212/212952385-5351e450-acaf-4c7c-bbca-6ceea50c1695.png)
+
+**Now Running these code for generating reports** 
+
+![Screenshot (256)](https://user-images.githubusercontent.com/90126212/212954305-dc7fb5c5-1db9-4379-929f-70fc756da3b9.png)
+
+![Screenshot (257)](https://user-images.githubusercontent.com/90126212/212954364-6f76b1b8-1562-498c-b15c-9acfb422b7ab.png)
+
+![Screenshot (258)](https://user-images.githubusercontent.com/90126212/212954562-a7f0e57c-ec88-47ce-a2cb-ef4ae8a5ffd9.png)
+
+![Screenshot (259)](https://user-images.githubusercontent.com/90126212/212954619-4d17b0e2-95b8-422e-b62e-9fb96d4c9759.png)
+
+
+
+
