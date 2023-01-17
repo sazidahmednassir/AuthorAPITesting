@@ -48,3 +48,15 @@ Using Environments Values in all method. Here are some images below:
 ![Screenshot (238)](https://user-images.githubusercontent.com/90126212/212927534-d0a44976-4efa-4f02-ada8-3470f412d678.png)
 
 ![Screenshot (239)](https://user-images.githubusercontent.com/90126212/212927612-8582b25e-6d0d-42dc-800c-c12ab37401be.png)
+
+## Using CSV File and Random value using postman:
+Using Csv file and Random value in methods. Here are images below:
+
+CSV File:
+![Screenshot (246)](https://user-images.githubusercontent.com/90126212/212933635-42b7c6f5-14b6-45f7-a00a-cf799008ca1c.png)
+
+Random Values:
+
+![Screenshot (247)](https://user-images.githubusercontent.com/90126212/212934161-353a098d-19c3-4915-a332-42f2cc67d573.png)
+
+![Screenshot (248)](https://user-images.githubusercontent.com/90126212/212934286-eb9d888e-688f-42b6-9d52-7ddba65e1d4b.png)
