@@ -35,3 +35,16 @@ Deleting Author Detail using delete method with id. Here is image below:
 
 
 ![Screenshot (212)](https://user-images.githubusercontent.com/90126212/212925076-1506a1a6-cc22-41f8-aa90-e6c3ad20f8ee.png)
+
+## Using Environments Values
+Using Environments Values in all method. Here are some images below:
+
+![Screenshot (235)](https://user-images.githubusercontent.com/90126212/212926285-5253a048-1c23-4a72-9533-b626d7f7b716.png)
+
+![Screenshot (236)](https://user-images.githubusercontent.com/90126212/212927275-ee0355a0-9fc6-4e97-b436-a558f3b8e8c2.png)
+
+![Screenshot (237)](https://user-images.githubusercontent.com/90126212/212927349-4abd3ce5-9ef8-4a7b-a28c-76707749cf7e.png)
+
+![Screenshot (238)](https://user-images.githubusercontent.com/90126212/212927534-d0a44976-4efa-4f02-ada8-3470f412d678.png)
+
+![Screenshot (239)](https://user-images.githubusercontent.com/90126212/212927612-8582b25e-6d0d-42dc-800c-c12ab37401be.png)
