@@ -104,7 +104,7 @@ Here are Two Reports Links:
 1. [ AuthorProject Report](https://drive.google.com/file/d/1AOCfPgmpzM4j4V9q9jRgkY5KV_Ywl8n4/view?usp=share_link)
 2. [Newman Run Report](https://drive.google.com/file/d/1WvkC5MU9KauPdOE8TSzVERN47LsfOqnT/view?usp=share_link)
 
-Thanks For Reading.
+Thank You For Reading.
 
 From,
 
